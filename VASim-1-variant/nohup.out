@@ -1,0 +1,778 @@
+BRILL --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/brill.mnrl
+Automata Statistics:
+  Elements: 115549
+  STEs: 115549
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.01557
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 5946 distinct subgraphs!
+
+Distributing 5946 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 115549
+  STEs: 115549
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.01557
+
+Compressability: 0
+
+PROTOMATA --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/protomata.mnrl
+Automata Statistics:
+  Elements: 24103
+  STEs: 24103
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 106
+  Average Node Degree: 0.997013
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1309 distinct subgraphs!
+
+Distributing 1309 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 24103
+  STEs: 24103
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 106
+  Average Node Degree: 0.997013
+
+Compressability: 0
+
+SEQMATCH --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/6wide_6pad.anml
+Automata Statistics:
+  Elements: 51570
+  STEs: 51570
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.73333
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1719 distinct subgraphs!
+
+Distributing 1719 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 51570
+  STEs: 51570
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.73333
+
+Compressability: 0
+
+CRISPR --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/CRISPR_CasOFFinder_2000.anml
+Automata Statistics:
+  Elements: 74000
+  STEs: 74000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.27027
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 2000 distinct subgraphs!
+
+Distributing 2000 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 74000
+  STEs: 74000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.27027
+
+Compressability: 0
+
+BRILL --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/brill.mnrl
+Automata Statistics:
+  Elements: 115549
+  STEs: 115549
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.01557
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 5946 distinct subgraphs!
+
+Distributing 5946 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 115549
+  STEs: 115549
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.01557
+
+Compressability: 0
+
+BRILL --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/brill.mnrl
+Automata Statistics:
+  Elements: 115549
+  STEs: 115549
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.01557
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 5946 distinct subgraphs!
+
+Distributing 5946 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 115549
+  STEs: 115549
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.01557
+
+Compressability: 0
+
+PROTOMATA --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/protomata.mnrl
+Automata Statistics:
+  Elements: 24103
+  STEs: 24103
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 106
+  Average Node Degree: 0.997013
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1309 distinct subgraphs!
+
+Distributing 1309 distinct subgraphs among 1 threads...
+
+./script.sh: line 8: 17900 Segmentation fault      (core dumped) ./vasim -n ../testing/nfas/protomata.mnrl
+mv: cannot stat 'protomata.nfa': No such file or directory
+SEQMATCH --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/6wide_6pad.anml
+Automata Statistics:
+  Elements: 51570
+  STEs: 51570
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.73333
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1719 distinct subgraphs!
+
+Distributing 1719 distinct subgraphs among 1 threads...
+
+./script.sh: line 14: 17939 Segmentation fault      (core dumped) ./vasim -n ../testing/nfas/6wide_6pad.anml
+mv: cannot stat '6wide_6pad.nfa': No such file or directory
+CRISPR --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/CRISPR_CasOFFinder_2000.anml
+Automata Statistics:
+  Elements: 74000
+  STEs: 74000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.27027
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 2000 distinct subgraphs!
+
+Distributing 2000 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 74000
+  STEs: 74000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.27027
+
+Compressability: 0
+
+APPRNG --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/apprng_n1000_d4.anml
+Automata Statistics:
+  Elements: 20000
+  STEs: 20000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 4
+  Average Node Degree: 1.6
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1000 distinct subgraphs!
+
+Distributing 1000 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 20000
+  STEs: 20000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 4
+  Average Node Degree: 1.6
+
+Compressability: 0
+
+mv: cannot stat './apprng_n1000_d4.nfa': No such file or directory
+ENTITYRESOLUTION --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/er_10000names.anml
+Automata Statistics:
+  Elements: 413352
+  STEs: 413352
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.47849
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 10000 distinct subgraphs!
+
+Distributing 10000 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 413352
+  STEs: 413352
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.47849
+
+Compressability: 0
+
+mv: cannot stat './er_10000names.nfa': No such file or directory
+HAMMING --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/ham_1000_3.anml
+Automata Statistics:
+  Elements: 108000
+  STEs: 108000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.69444
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1000 distinct subgraphs!
+
+Distributing 1000 distinct subgraphs among 1 threads...
+
+./script.sh: line 43:  2715 Segmentation fault      (core dumped) ./vasim -n ../testing/nfas/ham_1000_3.anml
+mv: cannot stat './ham_1000_3.nfa': No such file or directory
+APPRNG --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/apprng_n1000_d4.anml
+Automata Statistics:
+  Elements: 20000
+  STEs: 20000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 4
+  Average Node Degree: 1.6
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1000 distinct subgraphs!
+
+Distributing 1000 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 20000
+  STEs: 20000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 4
+  Average Node Degree: 1.6
+
+Compressability: 0
+
+ENTITYRESOLUTION --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/er_10000names.anml
+Automata Statistics:
+  Elements: 413352
+  STEs: 413352
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.47849
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 10000 distinct subgraphs!
+
+Distributing 10000 distinct subgraphs among 1 threads...
+
+Automata Statistics:
+  Elements: 413352
+  STEs: 413352
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.47849
+
+Compressability: 0
+
+HAMMING --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/ham_1000_3.anml
+Automata Statistics:
+  Elements: 108000
+  STEs: 108000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.69444
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1000 distinct subgraphs!
+
+Distributing 1000 distinct subgraphs among 1 threads...
+
+./script.sh: line 43:  4172 Segmentation fault      (core dumped) ./vasim -n ../testing/nfas/ham_1000_3.anml
+mv: cannot stat './ham_1000_3.nfa': No such file or directory
+APPRNG --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/apprng_n1000_d4.anml
+Automata Statistics:
+  Elements: 20000
+  STEs: 20000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 4
+  Average Node Degree: 1.6
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1000 distinct subgraphs!
+
+Distributing 1000 distinct subgraphs among 1 threads...
+
+here1
+here2
+here3
+herehere
+Automata Statistics:
+  Elements: 20000
+  STEs: 20000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 4
+  Average Node Degree: 1.6
+
+Compressability: 0
+
+ENTITYRESOLUTION --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/er_10000names.anml
+Automata Statistics:
+  Elements: 413352
+  STEs: 413352
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.47849
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 10000 distinct subgraphs!
+
+Distributing 10000 distinct subgraphs among 1 threads...
+
+here1
+here2
+here3
+herehere
+Automata Statistics:
+  Elements: 413352
+  STEs: 413352
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.47849
+
+Compressability: 0
+
+BRILL --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/brill.mnrl
+Automata Statistics:
+  Elements: 115549
+  STEs: 115549
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.01557
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 5946 distinct subgraphs!
+
+Distributing 5946 distinct subgraphs among 1 threads...
+
+here
+here2
+herehere
+Automata Statistics:
+  Elements: 115549
+  STEs: 115549
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.01557
+
+Compressability: 0
+
+PROTOMATA --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/protomata.mnrl
+Automata Statistics:
+  Elements: 24103
+  STEs: 24103
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 106
+  Average Node Degree: 0.997013
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1309 distinct subgraphs!
+
+Distributing 1309 distinct subgraphs among 1 threads...
+
+here
+here2
+herehere
+Automata Statistics:
+  Elements: 24103
+  STEs: 24103
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 106
+  Average Node Degree: 0.997013
+
+Compressability: 0
+
+SEQMATCH --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/6wide_6pad.anml
+Automata Statistics:
+  Elements: 51570
+  STEs: 51570
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.73333
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1719 distinct subgraphs!
+
+Distributing 1719 distinct subgraphs among 1 threads...
+
+here
+here2
+herehere
+Automata Statistics:
+  Elements: 51570
+  STEs: 51570
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.73333
+
+Compressability: 0
+
+CRISPR --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/CRISPR_CasOFFinder_2000.anml
+Automata Statistics:
+  Elements: 74000
+  STEs: 74000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.27027
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 2000 distinct subgraphs!
+
+Distributing 2000 distinct subgraphs among 1 threads...
+
+here
+here2
+herehere
+Automata Statistics:
+  Elements: 74000
+  STEs: 74000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 3
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.27027
+
+Compressability: 0
+
+APPRNG --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/apprng_n1000_d4.anml
+Automata Statistics:
+  Elements: 20000
+  STEs: 20000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 4
+  Average Node Degree: 1.6
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1000 distinct subgraphs!
+
+Distributing 1000 distinct subgraphs among 1 threads...
+
+here
+here2
+herehere
+Automata Statistics:
+  Elements: 20000
+  STEs: 20000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 4
+  Average Node Degree: 1.6
+
+Compressability: 0
+
+ENTITYRESOLUTION --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/er_10000names.anml
+Automata Statistics:
+  Elements: 413352
+  STEs: 413352
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.47849
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 10000 distinct subgraphs!
+
+Distributing 10000 distinct subgraphs among 1 threads...
+
+here
+here2
+herehere
+Automata Statistics:
+  Elements: 413352
+  STEs: 413352
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 3
+  Average Node Degree: 1.47849
+
+Compressability: 0
+
+FILECARVER --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/file_carver.anml
+Automata Statistics:
+  Elements: 2663
+  STEs: 2663
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 256
+  Max Fan-out (not including self loops): 256
+  Average Node Degree: 58.8029
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 9 distinct subgraphs!
+
+Distributing 9 distinct subgraphs among 1 threads...
+
+here
+here2
+herehere
+Automata Statistics:
+  Elements: 2663
+  STEs: 2663
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 256
+  Max Fan-out (not including self loops): 256
+  Average Node Degree: 58.8029
+
+Compressability: 0
+
+HAMMING --------------------------
+|----------------------------|
+|      Parsing  Automata     |
+|----------------------------|
+Building automata from file: ../testing/nfas/ham_1000_3.anml
+Automata Statistics:
+  Elements: 108000
+  STEs: 108000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.69444
+
+|---------------------------|
+|   Automata Partitioning   |
+|---------------------------|
+Finding connected components...
+  Found 1000 distinct subgraphs!
+
+Distributing 1000 distinct subgraphs among 1 threads...
+
+here
+here2
+herehere
+Automata Statistics:
+  Elements: 108000
+  STEs: 108000
+  SpecialElements: 0
+  Max Fan-in (not including self loops): 4
+  Max Fan-out (not including self loops): 2
+  Average Node Degree: 1.69444
+
+Compressability: 0
+
+mv: cannot move './ham_1000_3.nfa' to '../testing/nfas/AutomataZoo/automata-1-variant/Hamming_l18d3_1/1.nfa': No such file or directory
